@@ -9,7 +9,7 @@ st.write("""
 This app using **Advertising Data**
 """)
 
-st.sidebar.header('User Input Parameters')
+st.sidebar.header('**FOR INPUT**')
 
 def user_input_features():
     TV = st.sidebar.slider('TV', 0, 1000, 500)
@@ -25,7 +25,7 @@ def user_input_features():
 
 df = pd.read_csv('Advertising.csv')
 
-st.subheader('**FOR INPUT**')
+st.subheader('**INPUT RESULT**')
 st.write(df)
 
 iris = datasets.load_iris()
