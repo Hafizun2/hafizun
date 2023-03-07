@@ -25,7 +25,7 @@ def user_input_features():
 
 df = pd.read_csv('Advertising.csv')
 
-st.subheader('User Input parameters')
+st.subheader('**FOR INPUT**')
 st.write(df)
 
 iris = datasets.load_iris()
