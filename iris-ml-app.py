@@ -11,7 +11,7 @@ This app using **Advertising Data**
 
 st.sidebar.header('**FOR INPUT**')
 
-def user_input_features():
+def pd.read_csv('Advertising.csv'):
     TV = st.sidebar.slider('TV', 0, 1000, 500)
     Radio = st.sidebar.slider('Radio', 0, 1000, 500)
     Newspaper = st.sidebar.slider('Newspaper', 0, 1000, 500)
