@@ -23,7 +23,7 @@ def user_input_features():
     features = pd.DataFrame(data, index=[0])
     return features
 
-df = user_input_features()
+df = pd.read_csv('Advertising.csv')
 
 st.subheader('User Input parameters')
 st.write(df)
