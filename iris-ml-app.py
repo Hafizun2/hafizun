@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 st.write("""
 # My first Project
 
-This app predicts the **Iris flower** type!
+This app using **Advertising Data**
 """)
 
 st.sidebar.header('User Input Parameters')
